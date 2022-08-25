@@ -1,7 +1,16 @@
+//typescript:-
+/*
+variant of js
+offers all features of js and adds additional layers to it
+super-set of js
+lower the no of bugs in code
+extension - .ts
+*/
 console.log("Hello Type script!");
+//compile cmd in terminal - npx tsc index.ts
 //implicit types
 var helloWorld = "Hello, World!";
-// helloWorld = 5; // type script automatically etetcs error that sring cant be assigned number value
+// helloWorld = 5; // type script automatically detects error that string cant be assigned number value
 //explicit types
 var firstName = "John";
 var age = 30;
@@ -30,4 +39,12 @@ var odd = 5;
 var getLength = function (param) {
     return param.length;
 };
-getLength('test');
+getLength('test'); // ans = 4
+// getLength(5);// defined as array of string
+// to create react app in typescript - command in terminal
+//   npx create-react-app name-of-app --template typescript
+// installing in node -
+// check node and npm version = node -v and npm -v
+// cmd to install -  npm install typescript -g   
+// -g for global installation to every package
+// version check = tsc -v --> Version 4.7.4
